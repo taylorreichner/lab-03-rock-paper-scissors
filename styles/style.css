@@ -116,4 +116,10 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
+    
+  }
+
+  img {
+      height: 110px;
+      width: 130px;
   }
