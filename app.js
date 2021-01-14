@@ -22,11 +22,6 @@ confirmButton.addEventListener('click', () => {
     const userThrow = userInput.value;
     const computerThrow = getRandomThrow();
     const result = didUserWin(userThrow, computerThrow);
-    userThrowImg.src = `/${userThrow}.jpg`;
-    //userThrowImg.src = userInput.value;
-    // console.log(userThrow);
-    // // let computerThrowImg = `${computerThrow}.jpg`;
-    // // computerThrowImg.src = computerThrowImg;
     if (userThrow === 'paper') {
         userThrowImg.src = `${paper}.jpg`;
     } else if (userThrow === 'rock') {
