@@ -15,56 +15,71 @@
 <body>
     <header>
         <div class="gutter-right logo">
-            <img src="assets/big-logo.png"/>
+            <img src="assets/big-logo.png" />
         </div>
     </header>
     <main>
-      <section>
-          <div>Lets play rock, paper, scissors!</div>
-          <div>Select your answer then hit the button to see if you win!</div>
-      </section>
-      <section>
-          <label>
-        <input name="choice" type="radio" value="rock">
-            <img src="https://static.toiimg.com/thumb/msid-76750498,imgsize-965136,width-800,height-600,resizemode-75/76750498.jpg" alt="">
-    </label>
-        <label>
-        <input name="choice" type="radio" value="paper">
-        <img src="https://wrcb.images.worldnow.com/images/19266281_G.jpeg" alt="">
-    </label>
-        <label>
-        <input name="choice" type="radio" value="scissors">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/61vNqndZyJL._AC_SL1280_.jpg" alt="">
-    </label>
-    <button id="confirm-button">Click here if you are sure!</button>
-    <div id="you-won-secret-div"></div>
-        <div>
-            Wins:
-            <span id="secret-wins"></span>
-        </div>
-        <div>
-            Losses:
-            <span id="secret-losses"></span>
-        </div>
-        <div>Total:
-            <span id="secret-total"></span>
-        </div>
+        <section>
+            <div>Lets play rock, paper, scissors!</div>
+            <div>Select your answer then hit the button to see if you win!</div>
+        </section>
+        <section>
+            <label>
+                <input name="choice" type="radio" value="rock">
+                <img id="rock"
+                    src="https://static.toiimg.com/thumb/msid-76750498,imgsize-965136,width-800,height-600,resizemode-75/76750498.jpg"
+                    alt="">
+            </label>
+            <label>
+                <input name="choice" type="radio" value="paper">
+                <img id="paper"
+                    src="https://nyc3.digitaloceanspaces.com/aph/app/uploads/2019/04/26160704/1-04851-00_BL_Notebook_Paper_Punch_G-600x735.jpg"
+                    alt="">
+            </label>
+            <label>
+                <input name="choice" type="radio" value="scissors">
+                <img id="scissors" src="https://images-na.ssl-images-amazon.com/images/I/61vNqndZyJL._AC_SL1280_.jpg"
+                    alt="">
+            </label>
+            <button id="confirm-button">Click here if you are sure!</button>
+            <div id="you-won-secret-div"></div>
+            <div>
+                Wins:
+                <span id="secret-wins"></span>
+            </div>
+            <div>
+                Losses:
+                <span id="secret-losses"></span>
+            </div>
+            <div>Total:
+                <span id="secret-total"></span>
+            </div>
+            <section>
+                <div>
+                    <img id="user-throw-img" src="">
+                    <span>Your Answer</span>
+                </div>
+                <div>
+                    <img id="computer-throw-img" src="">
+                    <span>Computer Answer</span>
+                </div>
+            </section>
 
 
 
-</section>
+        </section>
     </main>
-    
-    
-    
+
+
+
     <section>Rules of the game!</section>
     <p>Rock beats scissors</p>
     <p>Scissors beats paper</p>
     <p>Paper beats rock</p>
 
     <footer>
-        
-        
+
+
     </footer>
 
     <script type="module" src="app.js"></script>
